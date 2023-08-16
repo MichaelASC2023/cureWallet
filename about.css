@@ -1,0 +1,111 @@
+div {
+    font-family: 'Francois One', sans-serif;
+    background-color: rgb(158, 63, 60);
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+img {
+    width: 60px;
+}
+
+
+.mainPage {
+    width: 1050px;
+    height: 200px;
+    background-color: transparent;
+    position: absolute;
+    left: 182px;
+    top: 70%;
+}
+
+.navBar2 {
+    background-color: rgb(158, 63, 60);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    right: 50px;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.currentlyViewing {
+    text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
+}
+
+.MedContainer {
+    position: absolute;
+    flex-direction: row;
+    width: 130%;
+    height: 270%;
+    display: flex;
+    top: -240%;
+    left: -300px;
+    background-color: transparent;
+}
+
+.Med {
+    width: 33%;
+    font-size: 24px;
+    margin: 15px;
+    padding: 25px;
+    border-left: 1px solid #592322;
+    border-right: 1px solid #592322;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: border 500ms;
+    border-radius: 25px;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Allows me to space the text */
+.Med p {
+    white-space: pre-line;
+}
+
+/* Aligns all h4 text in project container */
+.Med h4 {
+    text-align: center;
+}
+
+/* Aligns all p text in project container */
+.Med p {
+    text-align: center;
+}
+
+.backgroundMainPage {
+    transform: perspective(10px) rotateX(1deg);
+    background-color: rgb(223, 217, 26);
+    height: 1000px;
+    width: 700px;
+    rotate: 90deg;
+    position: absolute;
+    top: 400px;
+    right: 60px;
+
+}
+
+.backgroundMainPage2 {
+    transform: perspective(10px) rotateX(1deg);
+    background-color: #592322;
+    height: 1800px;
+    width: 700px;
+    rotate: 270deg;
+    position: absolute;
+    top: 450px;
+    right: 1500px;
+
+}

@@ -1,0 +1,158 @@
+div {
+    font-family: 'Francois One', sans-serif;
+    background-color: rgb(158, 63, 60);
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+img {
+    width: 60px;
+}
+
+
+.mainPage {
+    width: 1250px;
+    height: 200px;
+    background-color: transparent;
+    position: absolute;
+    left: 182px;
+    top: 70%;
+}
+
+.navBar4 {
+    background-color: rgb(158, 63, 60);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    right: 50px;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.currentlyViewing {
+    text-shadow: 0px 0px 30px white, 0px 0px 30px white, 0px 0px 30px white, 0px 0px 10px #553300, 0px 0px 10px #553300;
+}
+
+.MedContainer {
+    position: absolute;
+    flex-direction: column;
+    width: 110%;
+    height: 400%;
+    display: flex;
+    top: -170%;
+    left: -120px;
+    background-color: transparent;
+    box-sizing: border-box;
+    position: flex;
+    align-content: column;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.Med {
+    width: 33%;
+    height: 80%;
+    font-size: 30px;
+    margin: 15px;
+    padding: 25px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: border 500ms;
+    border-radius: 25px;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+.Med a {
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    text-shadow: 0px 0px 30px white, 0px 0px 30px white, 0px 0px 30px white, 0px 0px 10px #553300, 0px 0px 10px #553300;
+}
+
+/* Allows me to space the text */
+.Med p {
+    white-space: pre-line;
+}
+
+/* Aligns all h4 text in project container */
+.Med h4 {
+    text-align: center;
+}
+
+/* Aligns all p text in project container */
+.Med p {
+    text-align: center;
+}
+
+.backgroundMainPage {
+    transform: perspective(10px) rotateX(1deg);
+    background-color: #592322;
+    height: 1000px;
+    width: 700px;
+    rotate: 90deg;
+    position: absolute;
+    top: 400px;
+    right: 60px;
+
+}
+
+.backgroundMainPage2 {
+    transform: perspective(10px) rotateX(1deg);
+    background-color: rgb(223, 217, 26);
+    height: 1800px;
+    width: 700px;
+    rotate: 270deg;
+    position: absolute;
+    top: 450px;
+    right: 1500px;
+
+}
+
+.backgroundMainPage3 {
+    transform: perspective(10px) rotateX(1deg);
+    background-color: #592322;
+    height: 1000px;
+    width: 700px;
+    rotate: 90deg;
+    position: absolute;
+    top: 1900px;
+    right: -87px;
+
+}
