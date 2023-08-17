@@ -109,6 +109,7 @@ a {
 /* Allows me to space the text */
 .Med p {
     white-space: pre-line;
+    font-size: 27px;
 }
 
 /* Aligns all h4 text in project container */
@@ -135,7 +136,7 @@ a {
 
 .backgroundMainPage2 {
     transform: perspective(10px) rotateX(1deg);
-    background-color: rgb(223, 217, 26);
+    background-color: rgb(223, 167, 26);
     height: 1800px;
     width: 700px;
     rotate: 270deg;

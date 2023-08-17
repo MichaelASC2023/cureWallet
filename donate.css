@@ -87,7 +87,7 @@ a {
 
 .backgroundMainPage {
     transform: perspective(10px) rotateX(1deg);
-    background-color: rgb(223, 217, 26);
+    background-color: rgb(215, 162, 27);
     height: 1000px;
     width: 700px;
     rotate: 90deg;
